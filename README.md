@@ -7,10 +7,12 @@ printed on the PCB. Each release has:
 
 | File | For |
 | --- | --- |
-| `stuffy_meter_fw<version>_board<rev>.bin` | updating a monitor with board rev `<rev>` (3.2, 4.0 or 4.1) |
+| `stuffy_meter_fw<version>_board<rev>.bin` | updating a monitor with board rev `<rev>` (3.2 or 4.1) |
 | `stuffy_meter_fw<version>_board<rev>_factory.bin` | a new or erased board: the complete image, flashed over USB-C at 0x0 (erases the settings) |
 | `manifest.json` | the monitors: the version and where its images are |
 | `Stuffy_Meter_Quickstart_v<version>.pdf` | setting up a monitor and the dashboards |
+| `stuffy_meter_usb_{base,lid}.stl` | USB edition: 3D-printable enclosure |
+| `stuffy_meter_battery_{base,lid}.stl` | Battery edition: 3D-printable enclosure |
 | `SHA256SUMS` | checksums: `shasum -a 256 -c SHA256SUMS` |
 
 ## Updates
@@ -38,6 +40,16 @@ python3 -m esptool --chip esp32c3 write_flash 0x0 stuffy_meter_fw<version>_board
 Browser flashers (ESP Web Tools, esptool-js) take the factory image at offset 0.
 Then join the `StuffyMeter-xxxxxx` Wi-Fi with a phone to set the monitor up (the
 quick start explains it).
+
+## Documentation & Integrations
+
+See the [Wiki](https://github.com/chiehmin/stuffy-meter-releases/wiki) for the
+[Quickstart](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart),
+[REST API](https://github.com/chiehmin/stuffy-meter-releases/wiki/REST-API),
+[Prometheus Metrics](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-Metrics),
+[MQTT & Home Assistant](https://github.com/chiehmin/stuffy-meter-releases/wiki/MQTT-and-Home-Assistant),
+and [Telegram & Serial Console](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-and-Console)
+references.
 
 These releases are built and published automatically from the project's source
 repository.

@@ -1,16 +1,33 @@
-# Stuffy Meter releases
+# Stuffy Meter
 
-Firmware for the Stuffy Meter, a small CO2 and VOC monitor built around an
-ESP32-C3, in two editions: the USB edition (board rev 3.2) and the Battery
-edition (board rev 4.1, with an 18650 backup battery). The board revision is
-printed on the PCB. Each release has:
+> **Just got a Stuffy Meter? Start here to set up your device:**
+>
+> - **English:** **[Quickstart Guide](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart)** · [Wiki Home](https://github.com/chiehmin/stuffy-meter-releases/wiki)
+> - **繁體中文：** **[快速入門指南](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)** · [說明首頁](https://github.com/chiehmin/stuffy-meter-releases/wiki/Home-zh-Hant)
+> - **Already on Wi-Fi?** Open **[cmwang.dev/stuffy-meter](https://cmwang.dev/stuffy-meter)** on the same network to find your monitor and open its dashboard automatically.
+
+Official firmware releases, 3D-printable enclosures, and user guides for the
+**Stuffy Meter** — an ESP32-C3 Wi-Fi CO₂ and VOC air-quality monitor available
+in two hardware editions (the board revision is printed on the PCB):
+
+- **USB edition** (board rev `3.2`) — USB-C powered
+- **Battery edition** (board rev `4.1`) — USB-C + 18650 backup battery
+
+## Guides & Integrations
+
+- **Setup & Quickstart:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)
+- **Telegram Alerts:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts-zh-Hant)
+- **Smart Home & APIs:** [Home Assistant (HACS)](https://github.com/chiehmin/ha-stuffy-meter) · [MQTT & Home Assistant](https://github.com/chiehmin/stuffy-meter-releases/wiki/MQTT-and-Home-Assistant) · [REST API](https://github.com/chiehmin/stuffy-meter-releases/wiki/REST-API) · [Prometheus Metrics](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-Metrics)
+
+## Firmware Releases
+
+Download the latest release from the [Releases](https://github.com/chiehmin/stuffy-meter-releases/releases/latest) page. Each release contains:
 
 | File | For |
 | --- | --- |
-| `stuffy_meter_fw<version>_board<rev>.bin` | updating a monitor with board rev `<rev>` (3.2 or 4.1) |
-| `stuffy_meter_fw<version>_board<rev>_factory.bin` | a new or erased board: the complete image, flashed over USB-C at 0x0 (erases the settings) |
-| `manifest.json` | the monitors: the version and where its images are |
-| `Stuffy_Meter_Quickstart_v<version>.pdf` | setting up a monitor and the dashboards |
+| `stuffy_meter_fw<version>_board<rev>.bin` | updating a monitor with board rev `<rev>` (3.2 or 4.1) over Wi-Fi |
+| `stuffy_meter_fw<version>_board<rev>_factory.bin` | a new or erased board: the complete image, flashed over USB-C at `0x0` (erases settings) |
+| `manifest.json` | automatic updates: the version and image URLs |
 | `stuffy_meter_usb_{base,lid}.stl` | USB edition: 3D-printable enclosure |
 | `stuffy_meter_battery_{base,lid}.stl` | Battery edition: 3D-printable enclosure |
 | `SHA256SUMS` | checksums: `shasum -a 256 -c SHA256SUMS` |
@@ -38,18 +55,8 @@ python3 -m esptool --chip esp32c3 write_flash 0x0 stuffy_meter_fw<version>_board
 ```
 
 Browser flashers (ESP Web Tools, esptool-js) take the factory image at offset 0.
-Then join the `StuffyMeter-xxxxxx` Wi-Fi with a phone to set the monitor up (the
-quick start explains it).
-
-## Documentation & Integrations
-
-See the [Wiki](https://github.com/chiehmin/stuffy-meter-releases/wiki) for the
-[Quickstart](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart),
-[REST API](https://github.com/chiehmin/stuffy-meter-releases/wiki/REST-API),
-[Prometheus Metrics](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-Metrics),
-[MQTT & Home Assistant](https://github.com/chiehmin/stuffy-meter-releases/wiki/MQTT-and-Home-Assistant),
-and [Telegram & Serial Console](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-and-Console)
-references.
+Then join the `StuffyMeter-xxxxxx` Wi-Fi with a phone to set the monitor up
+(see the [Quickstart Guide](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart)).
 
 These releases are built and published automatically from the project's source
 repository.

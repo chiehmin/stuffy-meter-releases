@@ -50,15 +50,18 @@ A monitor on an older version cannot download from GitHub: upload the `.bin`
 of its board once on the dashboard's Firmware page, and it updates itself from
 then on.
 
-A new board, over USB-C:
+<details>
+<summary><strong>Advanced: flashing a blank or erased board over USB-C</strong></summary>
 
 ```sh
 python3 -m esptool --chip esp32c3 write_flash 0x0 stuffy_meter_fw<version>_board<rev>_factory.bin
 ```
 
-Browser flashers (ESP Web Tools, esptool-js) take the factory image at offset 0.
+Browser flashers (ESP Web Tools, esptool-js) take the `_factory.bin` image at offset `0x0`.
 Then join the `StuffyMeter-xxxxxx` Wi-Fi with a phone to set the monitor up
 (see the [Quickstart Guide](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart)).
+
+</details>
 
 These releases are built and published automatically from the project's source
 repository.

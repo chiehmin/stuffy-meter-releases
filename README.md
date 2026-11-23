@@ -17,8 +17,8 @@ in two hardware editions (the board revision is printed on the PCB):
 
 - **Setup & Quickstart:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)
 - **Telegram Alerts:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts-zh-Hant)
-- **Prometheus & Grafana (Docker):** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana-zh-Hant)
-- **Smart Home & APIs:** [Home Assistant (HACS)](https://github.com/chiehmin/ha-stuffy-meter) · [MQTT & Home Assistant](https://github.com/chiehmin/stuffy-meter-releases/wiki/MQTT-and-Home-Assistant) · [REST API](https://github.com/chiehmin/stuffy-meter-releases/wiki/REST-API) · [Prometheus Metrics](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-Metrics)
+- **Prometheus & Grafana (Docker & `/metrics`):** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana-zh-Hant)
+- **Smart Home & API:** [Home Assistant (HACS)](https://github.com/chiehmin/ha-stuffy-meter) · [MQTT & Home Assistant](https://github.com/chiehmin/stuffy-meter-releases/wiki/MQTT-and-Home-Assistant) · [REST API](https://github.com/chiehmin/stuffy-meter-releases/wiki/REST-API)
 
 ## Firmware & Monitoring Releases
 

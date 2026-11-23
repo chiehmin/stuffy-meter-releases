@@ -4,7 +4,8 @@
 >
 > - **English:** **[Quickstart Guide](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart)** · [Wiki Home](https://github.com/chiehmin/stuffy-meter-releases/wiki)
 > - **繁體中文**： **[快速入門指南](https://github.com/chiehmin/stuffy-meter-releases/wiki/快速入門指南)** · [說明首頁](https://github.com/chiehmin/stuffy-meter-releases/wiki/首頁)
-> - **Already on Wi-Fi?** Open **[cmwang.dev/stuffy-meter](https://cmwang.dev/stuffy-meter)** on the same network to find your monitor and open its dashboard automatically.
+> - **Already on Wi-Fi?** Open **[cmwang.dev/stuffy-meter/discovery/](https://cmwang.dev/stuffy-meter/discovery/)** on the same network to find your monitor and open its dashboard automatically.
+> - **Product Page:** **[cmwang.dev/stuffy-meter](https://cmwang.dev/stuffy-meter)**
 
 Official firmware releases, 3D-printable enclosures, and user guides for the
 **Stuffy Meter** — an ESP32-C3 Wi-Fi CO₂ and VOC air-quality monitor available

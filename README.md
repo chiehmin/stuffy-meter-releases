@@ -3,7 +3,7 @@
 > **Just got a Stuffy Meter? Start here to set up your device:**
 >
 > - **English:** **[Quickstart Guide](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart)** · [Wiki Home](https://github.com/chiehmin/stuffy-meter-releases/wiki)
-> - **繁體中文**： **[快速入門指南](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)** · [說明首頁](https://github.com/chiehmin/stuffy-meter-releases/wiki/Home-zh-Hant)
+> - **繁體中文**： **[快速入門指南](https://github.com/chiehmin/stuffy-meter-releases/wiki/快速入門指南)** · [說明首頁](https://github.com/chiehmin/stuffy-meter-releases/wiki/首頁)
 > - **Already on Wi-Fi?** Open **[cmwang.dev/stuffy-meter](https://cmwang.dev/stuffy-meter)** on the same network to find your monitor and open its dashboard automatically.
 
 Official firmware releases, 3D-printable enclosures, and user guides for the
@@ -15,9 +15,9 @@ in two hardware editions (the board revision is printed on the PCB):
 
 ## Guides & Integrations
 
-- **Setup & Quickstart:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)
-- **Telegram Alerts:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts-zh-Hant)
-- **Prometheus & Grafana (Docker & `/metrics`):** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana-zh-Hant)
+- **Setup & Quickstart:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/快速入門指南)
+- **Telegram Alerts:** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-Alerts) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Telegram-推播設定)
+- **Prometheus & Grafana (Docker & `/metrics`):** [English](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-and-Grafana) · [繁體中文](https://github.com/chiehmin/stuffy-meter-releases/wiki/Prometheus-與-Grafana)
 - **Smart Home & API:** [Home Assistant (HACS)](https://github.com/chiehmin/ha-stuffy-meter) · [MQTT & Home Assistant](https://github.com/chiehmin/stuffy-meter-releases/wiki/MQTT-and-Home-Assistant) · [REST API](https://github.com/chiehmin/stuffy-meter-releases/wiki/REST-API)
 
 ## Firmware & Monitoring Releases

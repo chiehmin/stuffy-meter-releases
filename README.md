@@ -3,7 +3,7 @@
 > **Just got a Stuffy Meter? Start here to set up your device:**
 >
 > - **English:** **[Quickstart Guide](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart)** · [Wiki Home](https://github.com/chiehmin/stuffy-meter-releases/wiki)
-> - **繁體中文：** **[快速入門指南](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)** · [說明首頁](https://github.com/chiehmin/stuffy-meter-releases/wiki/Home-zh-Hant)
+> - **繁體中文**： **[快速入門指南](https://github.com/chiehmin/stuffy-meter-releases/wiki/Quickstart-zh-Hant)** · [說明首頁](https://github.com/chiehmin/stuffy-meter-releases/wiki/Home-zh-Hant)
 > - **Already on Wi-Fi?** Open **[cmwang.dev/stuffy-meter](https://cmwang.dev/stuffy-meter)** on the same network to find your monitor and open its dashboard automatically.
 
 Official firmware releases, 3D-printable enclosures, and user guides for the

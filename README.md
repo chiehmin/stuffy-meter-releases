@@ -30,8 +30,8 @@ Download the latest release from the [Releases](https://github.com/chiehmin/stuf
 | `stuffy_meter_fw<version>_board<rev>.bin` | updating a monitor with board rev `<rev>` (3.2 or 4.1) over Wi-Fi |
 | `stuffy_meter_fw<version>_board<rev>_factory.bin` | a new or erased board: the complete image, flashed over USB-C at `0x0` (erases settings) |
 | `manifest.json` | automatic updates: the version and image URLs |
-| `stuffy_meter_usb_{base,lid}.stl` | USB edition: 3D-printable enclosure |
-| `stuffy_meter_battery_{base,lid}.stl` | Battery edition: 3D-printable enclosure |
+| `stuffy_meter_usb_{base,lid,lid_plain}.stl` | USB edition: 3D-printable enclosure (`_lid.stl` labeled for SLA/MJF/smooth plates; `_lid_plain.stl` unlabeled for FDM/textured PEI) |
+| `stuffy_meter_battery_{base,lid,lid_plain}.stl` | Battery edition: 3D-printable enclosure (`_lid.stl` labeled for SLA/MJF/smooth plates; `_lid_plain.stl` unlabeled for FDM/textured PEI) |
 | `stuffy_meter_monitoring_v<version>.tar.gz` | Prometheus + Grafana Docker Compose stack, pre-built dashboards & alert rules |
 | `SHA256SUMS` | checksums: `shasum -a 256 -c SHA256SUMS` |
 
